@@ -11,7 +11,7 @@ var Cat = mongoose.model('Cat', {name: String, age: Number, sex: String});
 // var tom = new Cat({name: "Tom", age: 20, sex: "公猫"})
 
 // 当Cat里面有不存在的属性时，不会插入数据库
-var tom = new Cat({name: "Jerry", age: 5, sex: "母"}) // weight不会被插入
+var tom = new Cat({name: "Jerry", age: 10, sex: "母", weight: 120}) // weight不会被插入
 
 // 当实体属性与Cat里面的类型不匹配的时候，数据不会插入
 // var tom = new Cat({name: "小白", age: 'tts', sex: "母猫"}) // 此条不会插入数据库
