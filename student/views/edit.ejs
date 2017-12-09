@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>edit</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <form method="get" action="doedit">
+      <div class="form-group">
+        <label for="exampleInputEmail1">学号</label>
+        <input type="text" class="form-control" name="sid" placeholder="学号" readonly>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">名字</label>
+        <input type="text" class="form-control" name="name" placeholder="名字">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">年龄</label>
+        <input type="text" class="form-control" name="age" placeholder="年龄">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputFile">性别</label>
+        <label for="">
+          <input type="radio" name="sex" value="男" <%= %> >男
+        </label>
+        <label for="">
+          <input type="radio" name="sex" value="女">女
+        </label>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+  <script src="/js/jquery-3.2.1.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

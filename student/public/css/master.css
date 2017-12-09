@@ -1,0 +1,95 @@
+*{
+  margin:0 auto;
+  padding: 0px;
+}
+ul,li{
+  list-style: none;
+}
+.cl{
+  clear:both;
+}
+.wrapper{
+  min-width:700px;
+}
+.photo{
+  border: 1px solid #eee; 
+  padding: 10px;
+}
+.title{
+  background: #369;
+  color: #fff;
+  line-height: 42px;
+  padding-left: 10px;
+  margin-top: 20px;   
+  position: relative;
+}
+.title .title-status{
+  position: absolute;right: 10px;
+}
+.title .title-btn{
+  background: #f90;
+  text-decoration: unset;
+  color: #fff;
+  border-radius: 2px;
+  padding: 2px 5px;
+}
+.title .title-status a{
+  color:#fff;
+}
+.photo li{
+  float:left;
+  width: 200px;
+  height: 120px;
+  border: 1px solid #eee;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.photo li.folder{
+  background: #eee;
+  line-height: 120px;
+  text-align: center;
+  font-size: 20px;
+  color: #369;
+  font-weight: bold;
+  cursor: pointer;
+}
+.photo li img{
+  width:100%;
+  transition: all .3s;
+}
+.photo li:hover img{
+  transform:scale(1.1);
+}
+.form{
+  padding: 10px;
+  border: 1px solid #eee;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.form li{
+  width: 100%;
+  margin-bottom: 10px;
+  height: 36px;
+  line-height: 36px;
+}
+.form .txt{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-left: 20px;
+  width: 100%;
+  border: 1px solid #eee;
+  height: 36px;
+  background: #fff;
+}
+.form .btn{
+  width: 476px;
+  height: 36px;
+  background: #369;
+  color:#fff;
+  border: 0px;
+}
+.form .btn:hover{
+  background: #368;
+}

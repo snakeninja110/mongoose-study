@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Add</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="../public/css/master.css"> -->
+  
+</head>
+<body>
+  <div class="container">
+    <form method="get" action="doadd">
+      <div class="form-group">
+        <label for="exampleInputEmail1">学号</label>
+        <input type="text" class="form-control" name="sid" placeholder="学号">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">名字</label>
+        <input type="text" class="form-control" name="name" placeholder="名字">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">年龄</label>
+        <input type="text" class="form-control" name="age" placeholder="年龄">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputFile">性别</label>
+        <label for="man">
+          <input type="radio" name="sex" value="男" id="man">男
+        </label>
+        <label for="woman">
+          <input type="radio" name="sex" value="女" id="woman">女
+        </label>
+      </div>
+      <div class="form-group">
+        <label for="">课程</label>
+        <label for="yw">
+          <input type="checkbox" name="courouse" id="yw" value="语文">语文
+        </label>
+        <label for="sx">
+          <input type="checkbox" name="courouse" id="sx" value="数学">数学
+        </label>
+        <label for="yy">
+          <input type="checkbox" name="courouse" id="yy" value="英语">英语
+        </label>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+  <script src="/js/jquery-3.2.1.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
